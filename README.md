@@ -1,4 +1,4 @@
-🔄 A Subscription Management System API
+# 🔄 A Subscription Management System API
 A modern Node.js + Express + MongoDB application for managing subscriptions, users, and subscription plans — the backend API powering a subscription-based platform.
 
 ## 📋 <a name="table">Table of Contents</a>
@@ -113,6 +113,7 @@ Requests can be made through a web browser or any HTTP client (e.g., Insomnia, P
   "paymentMethod": "Credit Card"
 }
 ```
+</details>
 
 ## <a name="demo">📸 Demo</a>
 
