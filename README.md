@@ -23,19 +23,13 @@ The system includes production-grade features such as rate limiting, bot protect
 
 ## <a name="features">⭐ Features</a>
 
-🔐 Advanced Security Controls: Arcjet integration provides bot protection and rate-limiting capabilities throughout the system.
-
-📨 Automated Email Notifications: Upstash Workflows enable scheduled and event-driven reminder emails.
-
-🗃️ Database Modeling: MongoDB and Mongoose are used to define structured models and establish clear relationships.
-
-🎫 JWT-Based Authentication: Secure token-based workflows support user management and subscription operations.
-
-⚠️ Centralized Error Handling: Unified validation, structured error responses, and middleware-driven processing ensure consistent behavior across the API.
-
-📜 Logging Infrastructure: Logging utilities enable improved visibility, debugging, and monitoring during development and production.
-
-🔧 Modular Architecture: The codebase is organized for scalability, maintainability, and reusability across different parts of the application.
+🔐 **Advanced Security Controls:** Arcjet integration provides bot protection and rate-limiting capabilities throughout the system.
+📨 **Automated Email Notifications:** Upstash Workflows enable scheduled and event-driven reminder emails.
+🗃️ **Database Modeling:** MongoDB and Mongoose are used to define structured models and establish clear relationships.
+🎫 **JWT-Based Authentication:** Secure token-based workflows support user management and subscription operations.
+⚠️ **Centralized Error Handling:** Unified validation, structured error responses, and middleware-driven processing ensure consistent behavior across the API.
+📜 **Logging Infrastructure:** Logging utilities enable improved visibility, debugging, and monitoring during development and production.
+🔧 **Modular Architecture:** The codebase is organized for scalability, maintainability, and reusability across different parts of the application.
 
 ## <a name="quick-start">🚀 Quick Start</a>
 
@@ -60,6 +54,7 @@ npm install
 ```
 
 **Set Up Environment Variables**
+
 Create a file named .env.local in the root directory of the project and add the required environment variables as shown below:
 
 ```env
@@ -100,8 +95,10 @@ After starting the server, the API will be accessible at:
 Requests can be made through a web browser or any HTTP client (e.g., Insomnia, Postman) to verify the endpoints.
 
 ## <a name="snippets">💻 Snippets</a>
+
 <details>
 <summary><code>Dummy JSON Data</code></summary>
+
 ```json
 {
   "name": "Sports Pro",
@@ -119,12 +116,12 @@ Requests can be made through a web browser or any HTTP client (e.g., Insomnia, P
 
 ![Sing UP API Response Example](assets/sign-up-api-response.png)
 *Example response returned by the API when creating a new user account.*
-
+<br>
 ![Sign In API Response Example](assets/sign-in-api-response.png)
 *Example response returned by the API when signing in an existing user.*
-
+<br>
 ![Rate Limit Trigger](assets/rate-limit-api-response.png)
 *Example showing Arcjet enforcing rate limits when too many API requests are made.* 
-
+<br>
 ![Automated Email Sent](assets/email-sent-response.png)  
 *Automated subscription reminder email example.*
