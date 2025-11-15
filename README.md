@@ -7,7 +7,8 @@ A modern Node.js + Express + MongoDB application for managing subscriptions, use
 3. ⭐ [Features](#features)  
 4. 🚀 [Quick Start](#quick-start)  
 5. 💻 [Snippets (Code to Copy)](#snippets)
-6. 📸 [Demo](#Demo) 
+6. 📸 [Demo](#Demo)
+7. 🔗 [Links](#Links)
 
 ## <a name="introduction">📘 Introduction</a>
 
@@ -122,12 +123,18 @@ Requests can be made through a web browser or any HTTP client (e.g., Insomnia, P
 
 ![Sing UP API Response Example](assets/sign-up-api-response.png)
 *Example response returned by the API when creating a new user account.*
-<br>
+
 ![Sign In API Response Example](assets/sign-in-api-response.png)
 *Example response returned by the API when signing in an existing user.*
-<br>
+
 ![Rate Limit Trigger](assets/rate-limit-api-response.png)
 *Example showing Arcjet enforcing rate limits when too many API requests are made.* 
-<br>
+
 ![Automated Email Sent](assets/email-sent-response.png)  
 *Automated subscription reminder email example.*
+
+## <a name="links">🔗 Links</a>
+
+- **Arcjet** - [https://arcjet.com/](https://arcjet.com/)
+- **Upstash** - [https://upstash.com/](https://upstash.com/)
+- **MongoDB** - [https://www.mongodb.com/](https://www.mongodb.com/)
