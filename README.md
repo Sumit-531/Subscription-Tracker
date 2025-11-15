@@ -24,11 +24,17 @@ The system includes production-grade features such as rate limiting, bot protect
 ## <a name="features">⭐ Features</a>
 
 🔐 **Advanced Security Controls:** Arcjet integration provides bot protection and rate-limiting capabilities throughout the system.
+
 📨 **Automated Email Notifications:** Upstash Workflows enable scheduled and event-driven reminder emails.
+
 🗃️ **Database Modeling:** MongoDB and Mongoose are used to define structured models and establish clear relationships.
+
 🎫 **JWT-Based Authentication:** Secure token-based workflows support user management and subscription operations.
+
 ⚠️ **Centralized Error Handling:** Unified validation, structured error responses, and middleware-driven processing ensure consistent behavior across the API.
+
 📜 **Logging Infrastructure:** Logging utilities enable improved visibility, debugging, and monitoring during development and production.
+
 🔧 **Modular Architecture:** The codebase is organized for scalability, maintainability, and reusability across different parts of the application.
 
 ## <a name="quick-start">🚀 Quick Start</a>
