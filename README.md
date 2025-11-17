@@ -1,11 +1,13 @@
 # 🔄 A Subscription Management System API
+
 A modern Node.js + Express + MongoDB application for managing subscriptions, users, and subscription plans — the backend API powering a subscription-based platform.
 
 ## 📋 <a name="table">Table of Contents</a>
-1. 📘 [Introduction](#introduction)  
-2. ⚙️ [Tech Stack](#tech-stack)  
-3. ⭐ [Features](#features)  
-4. 🚀 [Quick Start](#quick-start)  
+
+1. 📘 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. ⭐ [Features](#features)
+4. 🚀 [Quick Start](#quick-start)
 5. 💻 [Snippets (Code to Copy)](#snippets)
 6. 📸 [Demo](#Demo)
 7. 🔗 [Links](#Links)
@@ -34,19 +36,19 @@ The system includes production-grade features such as rate limiting, bot protect
 
 ⚠️ **Centralized Error Handling:** Unified validation, structured error responses, and middleware-driven processing ensure consistent behavior across the API.
 
-📜 **Logging Infrastructure:** Logging utilities enable improved visibility, debugging, and monitoring during development and production.
-
 🔧 **Modular Architecture:** The codebase is organized for scalability, maintainability, and reusability across different parts of the application.
 
 ## <a name="quick-start">🚀 Quick Start</a>
 
 **Prerequisites**
+
 - Git
 - Node.js
 - npm
 - MongoDB
 
 **Clone the repository**
+
 ```bash
 git clone https://github.com/Sumit-531/Subscription-Tracker.git
 cd Subscription-Tracker
@@ -90,6 +92,7 @@ QSTASH_TOKEN=
 # NODEMAILER
 EMAIL_PASSWORD=
 ```
+
 **Running the Project**
 
 ```bash
@@ -97,6 +100,7 @@ npm run dev
 ```
 
 **Test the API**
+
 After starting the server, the API will be accessible at:
 [http://localhost:5500](http://localhost:5500)
 Requests can be made through a web browser or any HTTP client (e.g., Insomnia, Postman) to verify the endpoints.
@@ -117,24 +121,26 @@ Requests can be made through a web browser or any HTTP client (e.g., Insomnia, P
   "paymentMethod": "Credit Card"
 }
 ```
+
 </details>
 
 ## <a name="demo">📸 Demo</a>
 
 ![Sing UP API Response Example](assets/sign-up-api-response.png)
-*Example response returned by the API when creating a new user account.*
+_Example response returned by the API when creating a new user account._
 
 ![Sign In API Response Example](assets/sign-in-api-response.png)
-*Example response returned by the API when signing in an existing user.*
+_Example response returned by the API when signing in an existing user._
 
 ![Rate Limit Trigger](assets/rate-limit-api-response.png)
-*Example showing Arcjet enforcing rate limits when too many API requests are made.* 
+_Example showing Arcjet enforcing rate limits when too many API requests are made._
 
 ![Automated Email Sent](assets/email-sent-response.png)  
-*Automated subscription reminder email example.*
+_Automated subscription reminder email example._
 
 ## <a name="links">🔗 Links</a>
 
 - **Arcjet** - [https://arcjet.com/](https://arcjet.com/)
 - **Upstash** - [https://upstash.com/](https://upstash.com/)
 - **MongoDB** - [https://www.mongodb.com/](https://www.mongodb.com/)
+- **Node.js** - [https://nodejs.org/en](https://nodejs.org/en)
